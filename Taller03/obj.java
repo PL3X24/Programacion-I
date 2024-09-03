@@ -2,31 +2,33 @@ import java.util.Scanner;
 public class obj {
     //Declaracion de variables
     
-    private float x1;
-    private float x2;
-    private float resultado;
-
+    public float A;
+    public float B;
+    public float C;
+    public float resultado;
+    public float x1;
+    public float x2;
     //Metodo de entrada
-    public obj() {
-
+    
+        public void titulos(){
         // Salida de presentacion
         System.out.println(" Universidad tecnologica de panama  ");
 	    System.out.println(" Estudiante Oliver Batista 8-1028-1845 ");
         System.out.println(" Estudiante Alexis Gonzales 8-1026-1272 ");
-        
+        }
         //Entrada del usuario
+        public void pedirvalores(){
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Programa para calcular la formula general");
-        System.out.println("Ingrese la variable A:");
-        int A = scanner.nextInt();
-        System.out.println("Ingrese la variable B:");
-        int B = scanner.nextInt();
-        System.out.println("Ingrese la variable C:");
-        int C = scanner.nextInt();
-        Procedimiento(A, B, C);
-    }
+        System.out.println("Ingrese A");
+        A = scanner.nextFloat();
+        System.out.println("Ingrese B");
+        B = scanner.nextFloat();
+        System.out.println("Ingrese C");
+        C = scanner.nextFloat();
+        }
+    
         //Metodo que resuelve la operacion
-        private void Procedimiento ( int A, int B, int C){
+        public void Procedimiento (){
         
         //Calcular discriminante antes de proceder
         float discr = B * B -4 * A * C;
@@ -42,16 +44,14 @@ public class obj {
     }
 
     //Metodos para devolver la respuesta en main
-    public float getX1() {
-        return x1;
+    public void respuesta(){
+        if (resultado < 0){
+            System.out.println("No se puede ejecutar el programa saliendo....");
+        }
+        else if (resultado > 0){
+            System.out.println("La raíz x1 es: " + x1);
+            System.out.println("La raíz x2 es: " + x2);
     }
-
-    public float getX2() {
-        return x2;
-    }
-
-    public float getdiscr(){
-        return resultado;
-    }
+}
 }
 
