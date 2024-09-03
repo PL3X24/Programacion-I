@@ -11,5 +11,6 @@ class Main {
        Crear objeto lectura de datos, método calcular valores x1, x2,  
        Crear el método de impresión de valores x1, x2 */
        System.out.println("Chucha madre que pereza");
+        System.out.println("pene");
     }
 }
