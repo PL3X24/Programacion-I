@@ -12,4 +12,17 @@ public class obj {
         System.out.println("Ingrese la variable C:");
         int C = scanner.nextInt();
     }
+        public static void Procedimiento ( int A, int B, int C){
+        
+        //discriminante
+        float discr = B * B -4 * A * C;
+            if (discr < 0){
+                System.out.println("Las raices son imaginarias ya que la discriminante es negativa");
+        } else {
+            //raices
+            float x1 = (-B + (float) Math.sqrt(discr)) / (2 * A);
+            float x2 = (-B + (float) Math.sqrt(discr)) / (2 * A);
+        }
+    }
 }
+
