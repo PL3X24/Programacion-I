@@ -24,7 +24,7 @@ public class obj {
         resultado = discr;
             if (discr < 0){
                 System.out.println("Las raices son imaginarias ya que la discriminante es negativa");
-        } 
+        }
             else if (discr > 0) {
             //raices
                 x1 = (-B + (float) Math.sqrt(discr)) / (2 * A);
