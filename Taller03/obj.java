@@ -2,10 +2,10 @@ import java.util.Scanner;
 public class obj {
     //Metodos que preguntaran y calcularan
     
-    private static float x1;
-    private static float x2;
+    private float x1;
+    private float x2;
 
-    public void Usuario() {
+    public obj() {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Programa para calcular la formula general");
         System.out.println("Ingrese la variable A:");
@@ -16,16 +16,17 @@ public class obj {
         int C = scanner.nextInt();
         Procedimiento(A, B, C);
     }
-        private static void Procedimiento ( int A, int B, int C){
+        private void Procedimiento ( int A, int B, int C){
         
         //discriminante
         float discr = B * B -4 * A * C;
             if (discr < 0){
                 System.out.println("Las raices son imaginarias ya que la discriminante es negativa");
-        } else {
+        } 
+            else if (discr > 0) {
             //raices
-            x1 = (-B + (float) Math.sqrt(discr)) / (2 * A);
-            x2 = (-B + (float) Math.sqrt(discr)) / (2 * A);
+                x1 = (-B + (float) Math.sqrt(discr)) / (2 * A);
+                x2 = (-B - (float) Math.sqrt(discr)) / (2 * A);
         }
     }
     public float getX1() {

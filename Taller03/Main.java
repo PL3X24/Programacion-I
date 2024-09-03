@@ -12,8 +12,5 @@ class Main {
         System.out.println("La raíz x1 es: " + formulaGeneral.getX1());
         System.out.println("La raíz x2 es: " + formulaGeneral.getX2());
         
-        /* Chistoso JIjijija (Porfavor borrar ahorita ta de motivacion)
-        System.out.println("Chucha madre que pereza");
-        System.out.println("pene"); */
     }
 }
