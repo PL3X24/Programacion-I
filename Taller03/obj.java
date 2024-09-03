@@ -11,6 +11,7 @@ public class obj {
         int B = scanner.nextInt();
         System.out.println("Ingrese la variable C:");
         int C = scanner.nextInt();
+        Procedimiento(A, B, C);
     }
         public static void Procedimiento ( int A, int B, int C){
         
