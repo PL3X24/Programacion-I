@@ -4,6 +4,7 @@ public class obj {
     
     private float x1;
     private float x2;
+    private float resultado;
 
     public obj() {
         Scanner scanner = new Scanner(System.in);
@@ -20,6 +21,7 @@ public class obj {
         
         //discriminante
         float discr = B * B -4 * A * C;
+        resultado = discr;
             if (discr < 0){
                 System.out.println("Las raices son imaginarias ya que la discriminante es negativa");
         } 
@@ -35,6 +37,10 @@ public class obj {
 
     public float getX2() {
         return x2;
+    }
+
+    public float getdiscr(){
+        return resultado;
     }
 }
 

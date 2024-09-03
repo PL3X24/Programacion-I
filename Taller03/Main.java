@@ -8,9 +8,12 @@ class Main {
         // Crear un objeto de la clase obj
         obj formulaGeneral = new obj();
         
-        // Obtener y mostrar las raíces
-        System.out.println("La raíz x1 es: " + formulaGeneral.getX1());
-        System.out.println("La raíz x2 es: " + formulaGeneral.getX2());
-        
+        if (formulaGeneral.getdiscr()< 0){
+            System.out.println("No se puede ejecutar el programa saliendo....");
+        }
+        else if (formulaGeneral.getdiscr()> 0){
+            System.out.println("La raíz x1 es: " + formulaGeneral.getX1());
+            System.out.println("La raíz x2 es: " + formulaGeneral.getX2());
+        }
     }
 }
