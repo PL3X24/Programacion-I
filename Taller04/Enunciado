@@ -1,0 +1,4 @@
+Confeccionar 1 proyecto en Java, que permita obtener el tiempo de caída libre desde un edificio de altura h =40 metros de
+altura, los datos asociados al problema son la gravedad y la altura ( ver formula de caída libre de un objeto). Por otro lado,
+confeccionar otro programa para calcular el monto final depositado en un banco a un periodo de 1 año, a una tase de interés
+del 7%. Los datos debe ser entrados por consola utilizando Scanner y el import java.util.Scanner.
