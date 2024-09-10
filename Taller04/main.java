@@ -11,7 +11,7 @@ public class main {
 
         // Creacion de los objetos
         caida caida = new caida();
-
+        interes interes = new interes();
         
         caida.titulos();
 
@@ -38,6 +38,9 @@ public class main {
                 // Interes
                 case 2:
 
+                    interes.LeerMonto();
+                    interes.Calcular();
+                    interes.Resultados();
                     break;
 
                 // Bye bye
