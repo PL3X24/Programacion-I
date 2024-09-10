@@ -8,5 +8,7 @@ public class caida {
 	    System.out.println(" Estudiante Oliver Batista 8-1028-1845");
         System.out.println(" Estudiante Alexis Gonzales 8-1026-1272");
     }
-    private void 
+    private void Calculos(){
+        
+    }
 }

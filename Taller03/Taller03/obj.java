@@ -1,3 +1,4 @@
+package Taller03;
 import java.util.Scanner;
 public class obj {
     //Declaracion de variables
