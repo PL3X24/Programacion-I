@@ -1,0 +1,11 @@
+Se utiliza para depurar los errores dentro del programa. A pesar de que el gestor de excepciones que proporciona 
+Java es útil para la depuración, generalmente el programador prefiere manejar la excepción él mismo. Esto aporta 
+dos ventajas:
+
+En primer lugar, permite corregir el error (a/b ). En segundo lugar, evita que el programa concluya de forma automática.
+
+Para evitar esta situación y gestionar el error en tiempo de ejecución (corrida del programa), sencillamente se debe 
+incluir el código que queramos controlar dentro de un bloque try. Inmediatamente después del bloque try, se incluye 
+la cláusula catch que especifica el tipo de excepción que se desea capturar corrida programa. Confeccionar programa 
+en java para obtener el o los Ips de dominios como:  www.prensa.com,  www.google.com,  www.utp.ac.pa. Puede utilizar 
+BufferReadr y JoptinPane (entrada/salida).
