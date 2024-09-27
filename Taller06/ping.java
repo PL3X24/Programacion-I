@@ -30,7 +30,7 @@ public class ping {
 
     public void Ping(){
         try{
-            InetAddress host = InetAddress.getByName("www.prensa.com");  // objeto host = dominio
+            InetAddress host = InetAddress.getByName(dominio);  // objeto host = dominio
             System.out.println(" Dominio URL: "+ host);            // Obtenemos el Host pc
             System.out.println("No IP: "+ host.getHostAddress()); // obtener el ip conv ips
             System.out.println("Nombre del URL : "+host.getHostName()); // Obtenemos el nombre
